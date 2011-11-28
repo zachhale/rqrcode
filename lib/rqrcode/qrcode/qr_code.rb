@@ -65,7 +65,7 @@ module RQRCode #:nodoc:
   #
 
   class QRCode
-    attr_reader :modules, :module_count
+    attr_reader :modules, :module_count, :version, :error_correction_level
 
     PAD0 = 0xEC
     PAD1 = 0x11  
